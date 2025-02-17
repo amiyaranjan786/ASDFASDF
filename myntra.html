@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My e-commerce clone</title>
+    <link rel="stylesheet" href="myntra.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="header">
+
+     
+   <div class="container"> 
+ <div class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="" width="125px">
+    </div>
+    <nav>
+        <ul id="MenuItems" >
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Product</a></li>
+        </ul>
+    </nav>
+
+
+<img src="cart.png" alt="" width="30px" height="30px">
+<img src="menu.png" alt="" class="menu-icon"  onclick="menutoggle()">
+
+ </div>
+ <div class="row">
+    <div class="col-2">
+<h1>Give your Workout <br>A new Style!</h1>
+<p>Success is not always about greatness.It's about consitency.Consistent<br> hard work gains success.Greatness will come.</p>
+<p></p>
+
+<a href="" class="btn">Explore Now &#8594;</a>
+
+
+    </div>
+    <div class="col-2">
+<img src="image1.png" >
+    </div>
+ </div>
+   </div>
+
+
+<div class="categories">
+    <div class="small-container">
+
+    
+  <div class="row">
+    <div class="col-3">
+        <img src="category-1.jpg" alt="">
+    </div>
+    <div class="col-3">
+<img src="category-2.jpg" alt="">
+    </div>
+    <div class="col-3">
+<img src="category-3.jpg" alt="">
+    </div>
+  </div>  
+</div>
+</div>
+    </div>
+
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+       <div class="col-4">
+        <img src="product-1.jpg" alt="">
+        <h4>Red printed T-shirt</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>1299.00</p>
+       </div> 
+
+       <div class="col-4">
+        <img src="product-5.jpg" alt="">
+        <h4>White Nike Air</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>2700.00</p>
+       </div> 
+
+       <div class="col-4">
+        <img src="product-2.jpg" alt="">
+        <h4>Skeakers by HRX</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>1099.00</p>
+       </div> 
+
+       <div class="col-4">
+        <img src="product-4.jpg" alt="">
+        <h4>Blue T-shirt Puma</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>2250.00</p>
+       </div>
+    </div>
+
+<h2 class="title"> latest Products</h2>
+<div class="row">
+    <div class="col-4">
+     <img src="product-6.jpg" alt="">
+     <h4>Red printed T-shirt</h4>
+     <div class="rating">
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star-o"></i>
+     </div>
+     <p>1299.00</p>
+    </div> 
+
+    <div class="col-4">
+     <img src="product-7.jpg" alt="">
+     <h4>White Nike Air</h4>
+     <div class="rating">
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star-o"></i>
+     </div>
+     <p>2700.00</p>
+    </div> 
+
+    <div class="col-4">
+     <img src="product-8.jpg" alt="">
+     <h4>Skeakers by HRX</h4>
+     <div class="rating">
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star-half-o"></i>
+     </div>
+     <p>1099.00</p>
+    </div> 
+
+    <div class="col-4">
+     <img src="product-9.jpg" alt="">
+     <h4>Blue T-shirt Puma</h4>
+     <div class="rating">
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star" ></i>
+         <i class="fa fa-star-o"></i>
+     </div>
+     <p>2250.00</p>
+    </div>
+  
+    <div class="col-4">
+        <img src="product-10.jpg" alt="">
+        <h4>Blue T-shirt Puma</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>2250.00</p>
+       </div>
+
+       
+    <div class="col-4">
+        <img src="product-11.jpg" alt="">
+        <h4>Blue T-shirt Puma</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>2250.00</p>
+       </div>
+       
+    <div class="col-4">
+        <img src="product-12.jpg" alt="">
+        <h4>Blue T-shirt Puma</h4>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>2250.00</p>
+       </div>
+ </div>
+</div>
+
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="exclusive.png" alt="" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on this Site</p>
+                <h1> Smart band-4</h1>
+                <small>The mi Smart Band 4 features a 39.9% larger
+                    (than Mi band 3)AMOLED  color full-touch display with 
+                    adjustable brightness, so everything is clear is as can be. 
+
+                </small>
+<a href="" class="btn">Buy Now &#8594</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="testimolial">
+    <div class="small-container">
+        <div class="row">
+       <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto excepturi illum officia incidunt magnam labore error aperiam delectus dolorem ea voluptatibus, reiciendis sed aut!</p>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <img src="user-1.png" >
+        <h3>Rocket</h3>
+       </div> 
+        </div>
+
+       <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto excepturi illum officia incidunt magnam labore error aperiam delectus dolorem ea voluptatibus, reiciendis sed aut!</p>
+        <div class="rating">
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <img src="user-2.png" >
+        <h3>Rocket</h3>
+       </div> 
+
+    </div>
+</div>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="logo-philips.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download My app</h3>
+                <p>Download App for Android and ios mobile</p>
+            <div class="app-logo">
+                <img src="play-store.png" alt="">
+                <img src="app-store.png" alt="">
+            </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo-white.png" alt="">
+                <p>Our purpose is to Sustainble make the pleaasure and benifits of sports Acessible to the many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+<hr>
+<p class="copyright">Don't Copy My Website</p>
+    </div>
+</div>
+<script>
+   var MenuItems = document.getElementById("MenuItems");
+   MenuItems.style.maxHeight="0px";
+   function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+
+    {
+        MenuItems.style.maxHeight == "200px";
+    }
+    else{
+        MenuItems.style.maxHeight == "0px";
+    }
+   }
+</script>
+</body>
+</html>
